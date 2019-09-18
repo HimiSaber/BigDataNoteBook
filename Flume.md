@@ -50,7 +50,7 @@ Flume=>Flume 使用Avro Sink 和Avro Source
 
 ## Flume Agent的内部原理
 
-![1568642380785](img\1568642380785.png)
+![image](https://github.com/HimiSaber/BigDataNoteBook/blob/master/img/1568642380785.png)
 
 
 
@@ -266,7 +266,7 @@ tier1.sources.source1.kafka.topics.regex = ^topic[0-9]$
 
 ## Flume的Kafka Sink
 
-![1568722993095](img\1568722993095.png)
+![image](https://github.com/HimiSaber/BigDataNoteBook/blob/master/img/1568722993095.png)
 
 
 
@@ -317,7 +317,7 @@ a1.sinks.k1.hdfs.roundUnit = minute
 
 The above configuration will round down the timestamp to the last 10th minute. For example, an event with timestamp 11:54:34 AM, June 12, 2012 will cause the hdfs path to become `/flume/events/2012-06-12/1150/00`.
 
-![1568722765087](img\1568722765087.png)
+![image](https://github.com/HimiSaber/BigDataNoteBook/blob/master/img/1568722765087.png)
 
 
 
